@@ -1,0 +1,171 @@
+/*!
+ * Start Bootstrap - The Big Picture HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+	margin: 0px;
+  padding: 0px;
+  background: none;
+}
+
+.fullhome {
+    background: url("../img/home/bg_home.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.conectarfb{
+	background: url("../img/face_connect_btn.png") no-repeat;
+	width: 382px;
+	height: 84px;
+	float: left;
+}
+
+
+
+.fullparticipa {
+      background: url("../img/participa_bg.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.fullparticipaold {
+      background: url("../img/participa_bg_old.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.menu {
+	background: url("../img/participa/menu_bg.png") no-repeat; 
+  width: 742px;
+  height: 118px;
+  border-color: initial !important;
+  color: transparent;
+}
+.menu li{
+  padding: 35px 3px 15px 45px;
+}
+.participa{
+	background: url("../img/participa/participa_link.png") no-repeat;
+	height: 34px;
+    width: 119px;
+    text-indent: -9999px;
+}
+
+.premios{
+	background: url("../img/participa/premios_link.png") no-repeat;
+	height: 25px;
+    width: 109px;
+    text-indent: -9999px;
+}
+.ganadores{
+	background: url("../img/participa/ganadores_link.png") no-repeat;
+	height: 34px;
+    width: 143px;
+    text-indent: -9999px;
+}
+
+.bases{
+	background: url("../img/participa/bases_link.png") no-repeat;
+	height: 25px;
+  width: 87px;
+  text-indent: -9999px;
+}
+
+.bases, .ganadores, .premios, .participa{
+  background-color: inherit !important;
+}
+
+.wrapper {
+    margin: auto;
+    overflow-x: hidden;
+    position: relative;
+    background: #263729;
+}
+
+.page {
+    width: 110%;
+    background: #992213;
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 900px;
+}
+#page-1 {
+    background: #0C717A;
+}
+#page-2 {
+    background: #009900;
+    left:100%;
+}
+#page-3 {
+    background: #0000FF;
+    left: 200%;
+}
+.invitaparticipa{
+    background: url("../img/participa/invitar_btn.png") no-repeat;
+    height: 64px;
+    width: 233px;
+    float:left;
+    text-indent: -999px;
+}
+.shareparticipa{
+    background: url("../img/participa/compartir_btn.png") no-repeat;
+    height: 64px;
+    width: 233px;
+    float:left;
+    text-indent: -9999px;
+}
+.opctionparticipar{
+    background: url("../img/participa/quiero_participar_btn.png") no-repeat;
+    height: 84px;
+    width: 313px;
+    float:right;
+    text-indent: -9999px;
+}
+
+.unslider-nav{
+  display: none !important;
+}
+ .unslider-arrow,  .unslider-arrow {
+    display: block;
+    width: 53px;
+    height: 84px;
+
+    top: 50%;
+    right: -50px;
+    left: auto;
+    margin-top: -16px;
+
+    overflow: hidden;
+
+    background: rgba(0,0,0,.2) no-repeat 50% 50%;
+    background-size: 7px 11px;
+
+    border-radius: 32px;
+    text-indent: -999em;
+
+    opacity: .6;
+    transition: opacity .2s;
+  }
+  .next{
+     background: url("../img/participa/flecha_derecha.png") no-repeat;
+  }
+  .prev{
+     background: url("../img/participa/flecha_izquierda.png") no-repeat;
+  }
+.unslider-arrow:hover, .unslider-arrow:hover {
+      opacity: 1;
+    }
+.unslider-arrow.prev, .unslider-arrow.prev {
+      left: -100px;
+      right: auto;
+    }
